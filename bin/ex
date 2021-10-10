@@ -1,0 +1,3 @@
+conn.toString():sun.net.www.protocol.https.DelegateHttpsURLConnection:https://www.codechobo.com/sample/hello.html
+getAllowUserInteraction():false
+	getConnectTimeout():0
