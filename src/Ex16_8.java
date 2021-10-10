@@ -9,7 +9,7 @@ public class Ex16_8 {
         // 데이터가 저장될 공간으로 byte배열을 생성한다.
         byte[] msg = new byte[100];
 
-        DatagramPacket outPacket = new DatagramPacket(msg, 1, serverAddress, 8000);
+        DatagramPacket outPacket = new DatagramPacket(msg, 1, serverAddress, 7777);
         DatagramPacket inPacket = new DatagramPacket(msg, msg.length);
 
         datagramSocket.send(outPacket); // DatagramPacket을 전송한다.
